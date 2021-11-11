@@ -11,10 +11,11 @@
 
 <body>
     @include('partials.header')
-
-    <main>
-        @yield('pageContent')
-    </main>
+    <div class="container">
+        <main>
+            @yield('pageContent')
+        </main>
+    </div>
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
